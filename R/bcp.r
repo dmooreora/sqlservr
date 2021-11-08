@@ -16,6 +16,7 @@
 #' @importFrom gdata write.fwf
 #' @importFrom utils write.table
 #' @export
+#' 
 db_bcp <- function (data, table, conn = NULL, truncate = FALSE, preserve_empty_strings = TRUE,
                     sep = "^|~", eol = "^|\r\n", paranoid = FALSE,
                     preserve_memory = FALSE, tmp_dir = ".", tmp_keep_files = FALSE) {
